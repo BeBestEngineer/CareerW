@@ -5419,16 +5419,17 @@ form.gp-theprint-search-form button:hover {
 .gp-theprint-trending-posts-b ul li,
 .gp-theprint-recent-reviews-b ul li {
 	display: block;
-	padding: 0;
-	margin: 1.250rem 0;
-	overflow: hidden;
         float: left;
+	padding: 0;
+	margin: 1.250rem 1.250rem 1.250rem 0;
+	overflow: hidden;
+        width: 33.3%
 }
 
 .gp-theprint-recent-posts-b ul li:not(:nth-child(3n+1)),
 .gp-theprint-trending-posts-b ul li:not(:nth-child(3n+1)),
 .gp-theprint-recent-reviews-b ul li:not(:nth-child(3n+1)) {    
-    margin-left: 2.500rem;
+    margin: 1.250rem;
 }
 
 .gp-theprint-recent-posts-b ul li:last-child,
@@ -8726,6 +8727,33 @@ body.show-menu {
 		font-size: 2.250rem;
 	}
 
+	/*-------------------------------------------*/
+	/* Recent post.
+	/*-------------------------------------------*/        
+        
+        .gp-theprint-recent-posts-b ul li,
+        .gp-theprint-trending-posts-b ul li,
+        .gp-theprint-recent-reviews-b ul li {
+                margin: 0rem;
+                width: 46.7%;
+        }
+
+        .gp-theprint-recent-posts-b ul li:nth-child(2n+1),
+        .gp-theprint-trending-posts-b ul li:nth-child(2n+1),
+        .gp-theprint-recent-reviews-b ul li:nth-child(2n+1) {    
+                margin: 1.250rem 1.250rem 1.250rem 0rem;
+        }
+
+        .gp-theprint-recent-posts-b ul li:nth-child(1n+2),
+        .gp-theprint-trending-posts-b ul li:nth-child(1n+2),
+        .gp-theprint-recent-reviews-b ul li:nth-child(1n+2) {    
+                margin: 1.250rem 0rem 1.250rem 1.250rem;
+        }        
+        
+        .gp-theprint-recent-posts-b ul li, .gp-theprint-trending-posts-b ul li, .gp-theprint-recent-reviews-b ul li {
+            
+        }
+        
 
 	/*-------------------------------------------*/
 	/* Archives, Categories, Author, and Search Page.
@@ -9681,7 +9709,27 @@ body.show-menu {
 		font-size: 1.250rem;
 	}
 
+        
+        /*-------------------------------------------*/
+	/* Recent posts.
+	/*-------------------------------------------*/
+        
+        .gp-theprint-site-main {
+            padding-left: 0rem;
+            padding-right: 0rem;
+        }
+        
+        .gp-theprint-recent-posts-b ul li:nth-child(2n+1),
+        .gp-theprint-trending-posts-b ul li:nth-child(2n+1),
+        .gp-theprint-recent-reviews-b ul li:nth-child(2n+1),
+        .gp-theprint-recent-posts-b ul li:nth-child(1n+2),
+        .gp-theprint-trending-posts-b ul li:nth-child(1n+2),
+        .gp-theprint-recent-reviews-b ul li:nth-child(1n+2) {    
+                margin: 1.250rem auto;
+                width: 100%;
+        }
 
+        
 	/*-------------------------------------------*/
 	/* Staff posts.
 	/*-------------------------------------------*/
