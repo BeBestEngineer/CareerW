@@ -8604,6 +8604,10 @@ body.show-menu {
 	/* Featured posts.
 	/*-------------------------------------------*/
 
+        .featured-post .featured-image img {
+            height: auto;
+        }
+        
 	/* Featured posts with style A */
 	.gp-theprint-featured-post-a.style-a h2.entry-title {
 		font-size: 1.625rem;
