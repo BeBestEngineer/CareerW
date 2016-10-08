@@ -1895,8 +1895,8 @@ img.aligncenter {
 
 .gp-theprint-content {
 	float: left;
-	width: 70.90909090%;
-	padding-right: 2.500rem;
+	width: 100%;
+	padding-right: 0rem;
 }
 
 .gp-theprint-content.single-post {
@@ -8106,7 +8106,7 @@ body.show-menu {
 	}
 
 	.gp-theprint-content {
-		padding-right: 1.875rem;
+		/*padding-right: 1.875rem;*/
 	}
 
 
