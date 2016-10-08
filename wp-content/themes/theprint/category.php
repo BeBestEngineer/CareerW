@@ -15,14 +15,14 @@ get_header(); ?>
 	<div class="gp-theprint-row">
 		<div class="gp-theprint-site-main">
 			<main id="content" class="gp-theprint-content">
-				<?php echo gp_theprint_breadcrumbs(); ?>
+				<?php //echo gp_theprint_breadcrumbs(); ?>
 
 				<?php if (!have_posts()) : ?>
 					<?php get_template_part('template-parts/content', 'none'); ?>
 				<?php else: ?>
 					<header class="archive-header">
 						<h1 class="archive-title">
-							<?php printf( esc_html__( 'Category Archives: %s', 'theprint' ), single_cat_title( '', false ) ); ?>
+							<?php printf( esc_html__( 'Категория: %s', 'theprint' ), single_cat_title( '', false ) ); ?>
 						</h1>
 
 						<?php
