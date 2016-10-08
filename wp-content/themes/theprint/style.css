@@ -1166,6 +1166,11 @@ img.aligncenter {
 	margin: 0;
 }
 
+.gp-theprint-logo h1.site-logo a img, 
+.gp-theprint-logo p.site-logo a img {
+        height: 75px;
+} 
+
 .gp-theprint-logo p.site-description {
 	display: none;
 }
@@ -8245,8 +8250,8 @@ body.show-menu {
 	.gp-theprint-logo h1.site-logo a img, 
 	.gp-theprint-logo p.site-logo a img {
 		width: auto ! important;
-		height: 50px ! important;
-		max-height: 50px ! important;
+		height: 75px ! important;
+		max-height: 75px ! important;
 	}
 
 	/* Style L */
@@ -9844,7 +9849,7 @@ body.show-menu {
 	.gp-theprint-logo h1.site-logo a img, 
 	.gp-theprint-logo p.site-logo a img {
 		height: auto ! important;
-		max-height: 50px ! important;
+		max-height: 75px ! important;
 	}
 
 	/* Style L */
