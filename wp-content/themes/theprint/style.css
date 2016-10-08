@@ -8319,7 +8319,7 @@ body.show-menu {
 	/*-------------------------------------------*/
 
 	.gp-theprint-secondary-navigation {
-		display: none;
+		/*display: none;*/  
 	}
 
 
