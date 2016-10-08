@@ -2269,7 +2269,7 @@ h2.entry-title a:hover {
 
 /* Entry overlay */
 .featured-post .featured-image .entry-overlay {
-	background-color: rgba(0,0,0,0.3);
+	background-color: rgba(0,0,0,0.0);
 	-webkit-transition: 0.1s all ease-in-out;
     -transition: 0.1s all ease-in-out;
     transition: 0.1s all ease-in-out;
