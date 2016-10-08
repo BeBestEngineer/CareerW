@@ -30,7 +30,7 @@ echo '<link rel="shortcut icon" type="image/x-icon" href="'. esc_url( get_option
 	<div class="gp-theprint-search-mobile">
 		<form class="gp-theprint-search-form" method="get" action="<?php echo esc_url( home_url( '/' ) ); ?>">
 			<input type="hidden" id="post_type-mobile" name="post_type" value="post" />
-			<input type="text" id="search-mobile" name="s" placeholder="<?php esc_attr_e('Search...', 'theprint'); ?>"/>
+			<input type="text" id="search-mobile" name="s" placeholder="<?php esc_attr_e('Поиск...', 'theprint'); ?>"/>
 
 			<button type="submit" id="button-mobile"><i class="fa fa-search"></i></button>
 		</form><!-- .gp-search-form -->
