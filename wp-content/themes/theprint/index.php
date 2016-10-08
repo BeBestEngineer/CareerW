@@ -60,6 +60,7 @@ get_header(); ?>
 					<?php if ( !have_posts() ): ?>
 						<?php get_template_part('template-parts/content', 'none'); ?>
 					<?php else: ?>
+						<?php if ( !is_home() ) : ?>
 						<h4 class="gp-theprint-page-title">
 							<span><?php esc_html_e('Latest Posts', 'theprint'); ?></span>
 							<span class="after"></span>
@@ -123,12 +124,16 @@ get_header(); ?>
 								?>
 							<?php endif; ?>
 						</div><!-- .gp-theprint-articles-->
+
+						<?php endif; ?>
 					<?php endif; ?>
 
+					<?php if ( !is_home() ) : ?>
 					<?php 
 					// Get the pagination.
 					get_template_part('pagination'); 
 					?>
+					<?php endif; ?>
 				<?php endif; ?>
 
 					<?php if( is_home() && !is_paged() ): ?>
