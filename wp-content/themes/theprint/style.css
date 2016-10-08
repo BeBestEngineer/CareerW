@@ -2640,13 +2640,13 @@ h2.entry-title a:hover {
 .hentry.gp-theprint-front-post-a {
 	float: left;
 	display: block;
-	width: 50%;
+	width: 33.3%;
 	padding: 0 0.938rem;
 	margin: 0 0 2.500rem;
 }
 
 .hentry.gp-theprint-front-post-a.first {
-	clear: left;
+	/*clear: left;*/
 }
 
 /* Featured image */
