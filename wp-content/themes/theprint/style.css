@@ -5417,6 +5417,14 @@ form.gp-theprint-search-form button:hover {
 	padding: 0;
 	margin: 1.250rem 0;
 	overflow: hidden;
+        float: left;
+}
+
+.gp-theprint-recent-posts-b ul li:not(:nth-child(3n+1)),
+.gp-theprint-trending-posts-b ul li:not(:nth-child(3n+1)),
+.gp-theprint-recent-reviews-b ul li:not(:nth-child(3n+1)) {
+    float: left;
+    margin-left: 2.500rem;
 }
 
 .gp-theprint-recent-posts-b ul li:last-child,
