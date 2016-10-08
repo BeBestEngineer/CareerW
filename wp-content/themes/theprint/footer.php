@@ -135,6 +135,21 @@ jQuery(document).ready(function($) {
 
 <?php endif; ?>
 
+<script type="text/javascript">
+
+jQuery('a.entry-link').hover(
+    function(){ 
+        jQuery( this ).prev('.entry-description').children('header').children('p').children('span').children('a').css({'color':'#868E99'});
+        jQuery( this ).prev('.entry-description').children('header').children('h2').css({'color':'#868E99'});        
+    },
+    function(){ 
+  			jQuery( this ).prev('.entry-description').children('header').children('p').children('span').children('a').css({'color':'white'});      
+  			jQuery( this ).prev('.entry-description').children('header').children('p>span>a, h2').css({'color':'white'});        
+    }
+);
+
+</script>
+
 <?php wp_footer(); ?>
 
 </body>
