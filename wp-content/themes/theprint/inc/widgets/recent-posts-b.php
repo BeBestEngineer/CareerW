@@ -239,13 +239,12 @@ class gp_theprint_load_recent_posts_b extends WP_Widget {
 								</div><!-- .featured-image -->
 
 								<div class="entry-header">
-									<h5 class="entry-title">
+                                                                        <p class="entry-meta-category">
+                                                                            <span class="entry-category"><?php echo gp_theprint_entry_meta_category_style(); ?></span>
+                                                                        </p>                                                                        
+                                                                        <h5 class="entry-title">
 										<a href="<?php esc_url( the_permalink() ); ?>" rel="bookmark"><?php the_title(); ?></a>
-									</h5>
-
-									<p class="entry-meta">
-										<span class="entry-time"><time class="entry-date published" datetime="<?php echo esc_attr( get_the_date( 'c' ) ); ?>"><?php the_time( get_option( 'date_format' ) ); ?></time></span>
-									</p><!-- .entry-meta -->
+									</h5>									
 								</div><!-- .entry-header -->
 							</li><!-- .gp-theprint-recent-post-b -->
 
