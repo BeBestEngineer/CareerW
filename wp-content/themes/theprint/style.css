@@ -1883,7 +1883,7 @@ img.aligncenter {
 
 .gp-theprint-site-main {
 	background-color: #ffffff;
-	padding: 2.188rem 2.500rem 1.250rem; 
+	padding: 2.188rem 0rem 0rem; 
 	margin: -2px 0 0;
 	overflow: hidden;
 }
@@ -8102,7 +8102,7 @@ body.show-menu {
 	/*-------------------------------------------*/
 
 	.gp-theprint-site-main {
-		padding: 1.875rem 1.875rem;
+		/*padding: 1.875rem 1.875rem;*/
 	}
 
 	.gp-theprint-content {
