@@ -60,9 +60,9 @@ get_header(); ?>
 					<?php if ( !have_posts() ): ?>
 						<?php get_template_part('template-parts/content', 'none'); ?>
 					<?php else: ?>
-						<?php if ( !is_home() ) : ?>
+						
 						<h4 class="gp-theprint-page-title">
-							<span><?php esc_html_e('Latest Posts', 'theprint'); ?></span>
+							<span><?php //esc_html_e('Latest Posts', 'theprint'); ?></span>
 							<span class="after"></span>
 						</h4>
 
@@ -125,15 +125,15 @@ get_header(); ?>
 							<?php endif; ?>
 						</div><!-- .gp-theprint-articles-->
 
-						<?php endif; ?>
+						
 					<?php endif; ?>
 
-					<?php if ( !is_home() ) : ?>
+					
 					<?php 
 					// Get the pagination.
 					get_template_part('pagination'); 
 					?>
-					<?php endif; ?>
+					
 				<?php endif; ?>
 
 					<?php if( is_home() && !is_paged() ): ?>
@@ -142,7 +142,7 @@ get_header(); ?>
 						if ( is_active_sidebar( 'sidebar-4' ) ): 
 						?>
 							<div class="gp-theprint-homepage-widget-area-1">
-								<?php dynamic_sidebar( 'sidebar-4' ); ?>
+								<?php //dynamic_sidebar( 'sidebar-4' ); ?>
 							</div><!-- .gp-theprint-homepage-widget-area-1 -->
 						<?php 
 						// End homepage widget area #1.
