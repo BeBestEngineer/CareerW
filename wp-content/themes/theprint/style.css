@@ -5423,7 +5423,6 @@ form.gp-theprint-search-form button:hover {
     width: 31%;
     margin: 1.250rem;
     height: 310px;
-
 }
 
 .gp-theprint-recent-posts-b ul li:nth-child(3n+1),
@@ -5437,14 +5436,6 @@ form.gp-theprint-search-form button:hover {
 .gp-theprint-recent-reviews-b ul li:nth-child(3n+3) {
     margin: 1.250rem 0rem 1.250rem 1.250rem;
 }
-
-/*
-.gp-theprint-recent-posts-b ul li:last-child,
-.gp-theprint-trending-posts-b ul li:last-child,
-.gp-theprint-recent-reviews-b ul li:last-child {
-	margin-bottom: 0;
-}
-*/
 
 /* Featured image */
 .gp-theprint-recent-posts-b ul li .featured-image,
@@ -8142,6 +8133,16 @@ body.show-menu {
 
 
 	/*-------------------------------------------*/
+	/* Staff posts.
+	/*-------------------------------------------*/
+        .gp-theprint-recent-posts-b ul li,
+        .gp-theprint-trending-posts-b ul li,
+        .gp-theprint-recent-reviews-b ul li {
+            width: 30%;
+        }
+        
+        
+	/*-------------------------------------------*/
 	/* Entry blocks
 	/*-------------------------------------------*/
 
@@ -8196,7 +8197,15 @@ body.show-menu {
 	body {
 		font-size: 16px;
 	}
-
+        
+	/*-------------------------------------------*/
+	/* Recent post.
+	/*-------------------------------------------*/
+        .gp-theprint-recent-posts-b ul li,
+        .gp-theprint-trending-posts-b ul li,
+        .gp-theprint-recent-reviews-b ul li {
+            height: 290px;
+        }
 }
 
 
@@ -8593,7 +8602,15 @@ body.show-menu {
 		font-size: 1.375rem;
 	}
 
-
+	/*-------------------------------------------*/
+	/* Recent post.
+	/*-------------------------------------------*/
+        .gp-theprint-recent-posts-b ul li,
+        .gp-theprint-trending-posts-b ul li,
+        .gp-theprint-recent-reviews-b ul li {
+            height: 260px;
+        }
+        
 	/*-------------------------------------------*/
 	/* Single post.
 	/*-------------------------------------------*/
