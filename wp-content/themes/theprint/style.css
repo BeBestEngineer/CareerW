@@ -2563,6 +2563,10 @@ h2.entry-title a:hover {
 	margin: 0 0 2px;
 }
 
+.gp-theprint-featured-post-d.style-b:nth-child(2) {
+    height: 185px;
+}
+
 /* Entry title */
 .gp-theprint-featured-post-d h2.entry-title {
 	font-size: 2.500rem;
