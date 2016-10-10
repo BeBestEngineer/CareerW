@@ -135,7 +135,7 @@
 				'theme_location' => 'gp_theprint_secondary_navigation',
 				'echo' => true,
 				'items_wrap' => '<ul>%3$s</ul>',
-				'walker' => new gp_theprint_mega_menu()
+				//'walker' => new gp_theprint_mega_menu()
 			) ); ?>
 		</div><!-- .gp-theprint-wrap -->
 	</nav><!-- .gp-theprint-secondary-navigation -->
