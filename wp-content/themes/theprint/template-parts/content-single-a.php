@@ -26,7 +26,7 @@
 						
 						<header class="entry-header">
 							<div class="single-entry-meta-category">
-								<span class="entry-category"><?php echo 'Категория: '.gp_theprint_single_entry_meta_category_style(); ?></span>
+								<span class="entry-category"><?php echo ''.gp_theprint_single_entry_meta_category_style(); ?></span>
 							</div>
 
 							<h1 class="entry-title" itemprop="headline"><?php the_title(); ?></h1>

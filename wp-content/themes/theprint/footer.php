@@ -139,8 +139,8 @@ jQuery(document).ready(function($) {
 
 jQuery('a.entry-link').hover(
     function(){ 
-        jQuery( this ).prev('.entry-description').children('header').children('p').children('span').children('a').css({'color':'#868E99'});
-        jQuery( this ).prev('.entry-description').children('header').children('h2').css({'color':'#868E99'});        
+        jQuery( this ).prev('.entry-description').children('header').children('p').children('span').children('a').css({'color':'#B8B8B8'});
+        jQuery( this ).prev('.entry-description').children('header').children('h2').css({'color':'#B8B8B8'});        
     },
     function(){ 
   			jQuery( this ).prev('.entry-description').children('header').children('p').children('span').children('a').css({'color':'white'});      

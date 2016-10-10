@@ -60,6 +60,20 @@ get_header(); ?>
 					<?php if ( !have_posts() ): ?>
 						<?php get_template_part('template-parts/content', 'none'); ?>
 					<?php else: ?>
+                                    
+                                                <?php if( is_home() && !is_paged() ): ?>
+                                                        <?php 
+                                                        // Homepage widget area #3.
+                                                        if ( is_active_sidebar( 'sidebar-6' ) ) : 
+                                                        ?>
+                                                                <div class="gp-theprint-homepage-widget-area-3">
+                                                                        <?php dynamic_sidebar( 'sidebar-6' ); ?>
+                                                                </div><!-- .gp-homepage-widget-area-3 -->
+                                                        <?php
+                                                        // End homepage widget area #3.
+                                                        endif; 
+                                                        ?>
+                                                <?php endif; ?>                                    
 						
 						<h4 class="gp-theprint-page-title">
 							<span><?php //esc_html_e('Latest Posts', 'theprint'); ?></span>
@@ -200,19 +214,7 @@ get_header(); ?>
 				</div><!-- .gp-theprint-wrap -->
 			<?php endif; ?>
 
-			<?php if( is_home() && !is_paged() ): ?>
-				<?php 
-				// Homepage widget area #3.
-				if ( is_active_sidebar( 'sidebar-6' ) ) : 
-				?>
-					<div class="gp-theprint-homepage-widget-area-3">
-						<?php dynamic_sidebar( 'sidebar-6' ); ?>
-					</div><!-- .gp-homepage-widget-area-3 -->
-				<?php
-				// End homepage widget area #3.
-				endif; 
-				?>
-			<?php endif; ?>
+			
 		</div><!-- .gp-site-main -->
 	</div><!-- .gp-row -->
 </div><!-- #main## -->

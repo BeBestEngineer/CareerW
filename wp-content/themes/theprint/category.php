@@ -22,7 +22,7 @@ get_header(); ?>
 				<?php else: ?>
 					<header class="archive-header">
 						<h1 class="archive-title">
-							<?php printf( esc_html__( 'Категория: %s', 'theprint' ), single_cat_title( '', false ) ); ?>
+							<?php printf( esc_html__( '%s', 'theprint' ), single_cat_title( '', false ) ); ?>
 						</h1>
 
 						<?php

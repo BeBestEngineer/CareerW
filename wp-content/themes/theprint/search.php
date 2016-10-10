@@ -19,7 +19,7 @@ get_header(); ?>
 					<?php get_template_part('template-parts/content', 'none'); ?>
 				<?php else: ?>
 					<header class="archive-header">
-						<h1 class="archive-title"><?php printf( esc_html__( 'Search Results for: %s', 'theprint' ), get_search_query() ); ?></h1>
+						<h1 class="archive-title"><?php printf( esc_html__( 'По запросу &laquo;%s&raquo; найдено:', 'theprint' ), get_search_query() ); ?></h1>
 					</header><!-- .archive-header -->
 
 					<div class="gp-theprint-articles front-posts<?php if ( get_option( 'gp_theprint_front_posts_style' ) == 'style-a' || get_option( 'gp_theprint_front_posts_style' ) == 'style-b' || get_option( 'gp_theprint_front_posts_style' ) == 'style-e' ): ?> with-padding<?php endif; ?>">

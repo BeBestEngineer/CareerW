@@ -12,11 +12,11 @@
 		<div class="gp-theprint-row">
 			<div class="gp-theprint-wrap">
 				<div class="gp-theprint-menu-button">
-					<button id="open-button" class="menu-button">
+<!--					<button id="open-button" class="menu-button">
 						<span class="top"></span>
 						<span class="mid"></span>
 						<span class="bot"></span>
-					</button>
+					</button>-->
 				</div><!-- .gp-theprint-menu-button -->
 
 				<div class="gp-theprint-navigation-icons">

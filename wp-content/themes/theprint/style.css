@@ -1300,6 +1300,7 @@ img.aligncenter {
 	padding: 0;
 	margin: 0 0 0 1.250rem;
 	text-transform: uppercase;
+        display: none;
 }
 
 /* List */
@@ -2281,7 +2282,7 @@ h2.entry-title a:hover {
 }
 
 .featured-post .featured-image:hover .entry-overlay {
-	background-color: rgba(0,0,0,0.5);
+	background-color: rgba(0,0,0,0.1);
 	-webkit-transition: 0.1s all ease-in-out;
     -transition: 0.1s all ease-in-out;
     transition: 0.1s all ease-in-out;
@@ -7320,6 +7321,7 @@ form.gp-theprint-search-form button:hover {
 	width: 100%;
 	font-weight: 700;
 	margin: 0;
+        display: none;
 }
 
 /* List */
