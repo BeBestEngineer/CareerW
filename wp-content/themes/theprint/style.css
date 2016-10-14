@@ -140,6 +140,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 /*
 /*-----------------------------------------------------------------------------------*/
 
+@import 'https://fonts.googleapis.com/css?family=Raleway';
 
 /*-----------------------------------------------------------------------------------*/
 /* 1.0. HTML5 Reset
@@ -6861,6 +6862,20 @@ form.gp-theprint-search-form button:hover {
 
 .gp-theprint-homepage-widget-area-3 .gp-theprint-widget:last-child {
 	margin-bottom: 1.875rem ! important;
+}
+
+/*-------------------------------------------*/
+/* 10.1.1 Homepage #3 widget text 
+/*-------------------------------------------*/
+
+.gp-theprint-homepage-widget-area-3 .quote-widget-3 {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    color: #444444;    
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;    
 }
 
 /*-------------------------------------------*/
